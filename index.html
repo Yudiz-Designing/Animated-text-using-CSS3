@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>.: Animated Text :.</title>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800" rel="stylesheet">
+<style type="text/css">
+	@keyframes color-text {
+  		0% {
+    		background-position: 0 0;
+  		}
+  		10%{
+  			background-position: 100px 0;
+  		}
+  		20%{
+  			background-position: 200px 0;
+  		}
+  		30%{
+  			background-position: 300px 0;
+  		}
+  		40%{
+  			background-position: 400px 0;
+  		}
+  		50%{
+  			background-position: 500px 0;
+  		}
+  		50%{
+  			background-position: 650px 0;
+  		}
+  		60%{
+  			background-position: 750px 0;
+  		}
+  		70%{
+  			background-position: 850px 0;
+  		}
+  		80%{
+  			background-position: 950px 0;
+  		}
+  		90%{
+  			background-position: 1100px 0;
+  		}
+  		100% {
+    		background-position: 1262px 0;
+  		}
+	}
+	* 			{ margin: 0; padding: 0; font-family: 'Open Sans', sans-serif;}
+	html, body 	{ height: 100%;}
+	body 		{ background: #dadada;}
+	h1 			{ font-size: 100px; font-weight: 800; text-align: center; background: linear-gradient(to right, #ffe641 0%, #ffffff 15%, #ffe641 35%, #ffffff 50%, #ffe641 85%, #ffe641 90%, #ffffff 100%) repeat; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation: color-text 5s infinite;}
+	.valign 	{ position: relative; top: 50%; transform: translateY(-50%);}
+</style>
+</head>
+<body>
+	<h1 class="valign">This is an Animated Text</h1>
+</body>
+</html>
